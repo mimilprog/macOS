@@ -1,0 +1,238 @@
+.topbar{
+    background-color: rgba(240, 248, 255, 0.308);
+    backdrop-filter: blur(50px);
+    width: 100%;
+    height: 30px;
+    transition: 1s;
+}
+.topbar2{
+    background-color: rgba(240, 248, 255, 0.308);
+    backdrop-filter: blur(50px);
+    width: 100%;
+    height: 30px;
+    transform: translateY(-30px);
+    transition: 1s;
+}
+
+.toplog{
+    width: 30px;
+    height: 100%;
+}
+.toplog:hover{
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+}
+.toplogP{
+    width: 30px;
+    transform: translateY(5px);
+}
+
+.taskbar{
+    display: flex;
+    border-radius: 10px;
+    position: absolute;
+    top: 970px;
+    left: 40px;
+    width: 1840px;
+    height: 100px;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.308);
+    backdrop-filter: blur(50px);
+    /*border: #fff solid 0.00834px;*/
+    transition: 1s;
+}
+.taskbar2{
+    display: flex;
+    border-radius: 10px;
+    position: absolute;
+    top: 1080px;
+    left: 40px;
+    width: 1840px;
+    height: 100px;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.308);
+    backdrop-filter: blur(50px);
+    /*border: #fff solid 0.00834px;*/
+    transition: 1s;
+}
+.internaltask{
+    margin: auto;
+    display: flex;
+    width: 1800px;
+    height: 80px;
+    background-color: rgba(255, 0, 0, 0);
+    align-items: center;
+}
+.icontask{
+    display: grid;
+    margin: auto;
+    width: 75px;
+    height: 75px;
+    transition: 500ms;
+}
+.separateur{
+    width: 2px;
+    height: 65px;
+    background-color: black;
+}
+.icontask:hover{
+    transform: translateY(-50px);
+    width: 150px;
+    height: 150px;
+    transition: 500ms;
+}
+.clickicon{
+    animation: topl 2s;
+}
+
+@keyframes topl {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.topAfter{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 35px;
+    align-items: center;
+    width: 800px;
+    height: 30px;
+    background-color: rgba(0, 255, 200, 0);
+}
+
+.topEnd{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 1620px;
+    align-items: center;
+    width: 300px;
+    height: 30px;
+    background-color: rgba(0, 255, 200, 0);
+}
+.topElementR1{
+    margin: auto;
+    display: grid;
+    width: 25px;
+    height: 20px;
+    align-items: center;
+    text-align: center;
+}
+.topElementR1:hover{
+    display: grid;
+    width: 25px;
+    height: 20px;
+    align-items: center;
+    backdrop-filter: brightness(40%);
+}
+.topElementR2{
+    margin: auto;
+    display: grid;
+    width: 25px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+}
+.topElementR2:hover{
+    display: grid;
+    width: 25px;
+    height: 30px;
+    align-items: center;
+    backdrop-filter: brightness(40%);
+}
+.topElementR3{
+    margin: auto;
+    display: grid;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+}
+.topElementR3:hover{
+    display: grid;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    backdrop-filter: brightness(40%);
+}
+.topElementR4{
+    margin: auto;
+    display: grid;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+}
+.topElementR4:hover{
+    display: grid;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    backdrop-filter: brightness(40%);
+}
+.topElementRl1{
+    margin: auto;
+    display: grid;
+    width: 150px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+}
+.topElementRl1:hover{
+    display: grid;
+    width: 150px;
+    height: 30px;
+    align-items: center;
+    backdrop-filter: brightness(40%);
+}
+
+.topElementl{
+    margin: auto;
+    display: grid;
+    height: 25px;
+    width: 10%;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+.topElementl:hover{
+    margin: auto;
+    display: grid;
+    height: 25px;
+    width: 10%;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: brightness(40%);
+}
+
+.applaunch2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.733);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    opacity: 100%;
+    transition: 1s;
+}
+.applaunch{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.733);
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+}

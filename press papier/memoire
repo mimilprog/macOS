@@ -1,0 +1,11 @@
+appleLogMenu:
+    -ouverture du menu par log apple
+
+connect():
+    -connexion session
+
+goPhase2():
+    ouverture page login
+
+goPhase1():
+    -retour lock screen

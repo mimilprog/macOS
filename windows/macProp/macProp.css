@@ -1,0 +1,14 @@
+.macProp{
+    position: absolute;
+    display: flex;
+    top: 290px;
+    left: 710px;
+    width: 500px;
+    height: 500px;
+}
+.imgpropmacb{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    transform: translate3d(-15px, -150px, 0px);
+}

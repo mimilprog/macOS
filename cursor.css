@@ -1,0 +1,7 @@
+.UI-default{
+    cursor: url("pointer/default.png"), default;
+}
+.UI-click{
+    cursor: url("pointer/handpointing.png"), pointer;
+         
+}

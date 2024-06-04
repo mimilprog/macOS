@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styledef.css">
+    <link rel="stylesheet" href="boot.css">
+    <link rel="stylesheet" href="lock.css">
+    <link rel="stylesheet" href="UI.css">
+    <link rel="stylesheet" href="cursor.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="windows style.css">
+    <title>MacOS 15.0 Neotempora</title>
+</head>
+
+
+
+
+
+
+<body class="UI-default">
+    <div class="boot" id="boot">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/647px-Apple_logo_white.svg.png" alt="" class="Wel">
+    </div>
+    <div class="charge UI-default" id="charge">
+    <div class="desk" id="desk">
+        <div class="menu">
+            <div class="appleLogMenu MenuA Menu" id="MenuA">
+                <span class="item" onclick="MenuA.style.display = 'none'; macProp.style.display = 'flex'">A propos  de mon Mac</span>
+            </div>
+            <div class="GoMenu MenuB Menu" id="MenuB">
+                <span class="item" onclick="MenuB.style.display = 'none'; launchpadopen()">Launchpad</span>
+            </div>
+        </div>
+        <div class="topbar" id="topbar">
+            <div class="toplog UI-click"  onclick="MenuA.style.display = 'grid'">
+                <img src="https://logos-marques.com/wp-content/uploads/2021/03/Apple-logo.png" alt="" class="toplogP">
+            </div>
+            <div class="topAfter">
+                <div class="topElementl" id="topElementl">
+                    <b>Finder</b></div>
+                <div class="topElementl UI-click" id="topElementl">Fichier</div>
+                <div class="topElementl UI-click" id="topElementl">Edition</div>
+                <div class="topElementl  UI-click" id="topElementl">Vue</div>
+                <div class="topElementl UI-click" id="topElementl" onclick="MenuB.style.display = 'grid'">Aller</div>
+                <div class="topElementl UI-click" id="topElementl">Fenêtre</div>
+                <div class="topElementl UI-click" id="topElementl">aide</div>
+            </div>
+            <div class="topEnd">
+                <div class="topElementR1 UI-click" id="topElementR1">
+                    <img src="picture/Batterie.png" alt="" class="topElementR1 UI-click" id="topElementR1">
+                </div>
+                <div class="topElementR2 UI-click" id="topElementR2">
+                    <img src="picture/Wifi.png" alt="" class="topElementR2 UI-click" id="topElementR2">
+                </div>
+                <div class="topElementR3 UI-click" id="topElementR3">
+                    <img src="picture/search.png" alt="" class="topElementR3 UI-click" id="topElementR3">
+                </div>
+                <div class="topElementR4 UI-click" id="topElementR4">
+                    <img src="picture/trim.png" alt="" class="topElementR4 UI-click" id="topElementR4">
+                </div>
+                <div class="topElementRl1 UI-click" id="topElementRl1">
+                    Lundi 1 Janvier  9:24
+                </div>
+            </div>
+        </div>
+        <div class="windows">
+            <head>
+                <link rel="stylesheet" href="windows/macProp/macProp.css">
+            </head>
+            <div class="macProp windowssys" id="macProp">
+                <div class="topbarwin">
+                    <img src="windows/ressource/rouge btn.svg" alt="" class="btnwin" onclick="macProp.style.display = 'none'">
+                    <span class="titlewin">À propos de mon Mac</span>
+                </div>
+                
+                <img src="windows/macProp/picture/1175020-200.png" alt="" class="imgpropmacb">
+            </div>
+        </div>
+        <div class="taskbar2" id="taskbar">
+            <div class="internaltask">
+            <div class="icontask">
+                <img src="icon/Finder Big Sur Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Finder">
+            </div>
+            <div class="icontask">
+                <img src="icon/Launchpad big sur icon regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="launchpadopen()" title="Launchpad">
+            </div>
+            <div class="icontask">
+                <img src="icon/Big Sur Safari icon Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Safari">
+            </div>
+            <div class="icontask">
+                <img src="icon/iMessages Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="IMessages">
+            </div>
+            <div class="icontask">
+                <img src="icon/BigSur Mail icon Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Mail">
+            </div>
+            <div class="icontask">
+                <img src="icon/Apple Maps icon Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Apple Maps">
+            </div>
+            <div class="icontask">
+                <img src="icon/Apple Photos icon Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Apple Photos">
+            </div>
+            <div class="icontask">
+                <img src="icon/BigSur FaceTime icon2 Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="FaceTime">
+            </div>
+            <div class="icontask">
+                <img src="icon/Apple Calendar Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Apple Calendar">
+            </div>
+            <div class="icontask">
+                <img src="icon/Apple Contacts icon Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Apple Contacts">
+            </div>
+            <div class="icontask">
+                <img src="icon/Reminders app icon Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Redminders">
+            </div>
+            <div class="icontask">
+                <img src="icon/BigSur Notes Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Notes">
+            </div>
+            <div class="icontask">
+                <img src="icon/Archicad Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Archicad">
+            </div>
+            <div class="icontask">
+                <img src="icon/MacOS Big Sur Apple tv icon regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Apple TV">
+            </div>
+            
+            <div class="icontask">
+                <img src="icon/Apple Music New Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Apple Music">
+            </div>
+            <div class="icontask">
+                <img src="icon/Apple News Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Apple News">
+            </div>
+            <div class="icontask">
+                <img src="icon/Big Sur Keynote icon Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Keynote">
+            </div>
+            <div class="icontask">
+                <img src="icon/MacOS Numbers icon Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Numbers">
+            </div>
+            <div class="icontask">
+                <img src="icon/Big Sur Pages icon Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Pages">
+            </div>
+            <div class="icontask">
+                <img src="icon/Apple AppStore icon Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="AppStore">
+            </div>
+            <div class="icontask">
+                <img src="icon/BigSur System Preferences Regular.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Préférence système">
+            </div>
+            <div class="separateur"></div>
+            <div class="icontask">
+                <img src="icon/MacOS Big Sur Download Folder.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Téléchargement">
+            </div>
+            <div class="icontask">
+                <img src="icon/Big Sur trash empty.png" alt="" class="icontask iconclick UI-click" id="icontask" onclick="clickIcon()" title="Corbeil : vide">
+            </div></div>
+        </div>
+        <div class="applaunch" id="applaunch">
+            <button onclick="launchpadclose()" style="position: absolute; width: 150px; height: 50px;">
+                close
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="log " id="log" onclick="goPhase2()">
+            <!--<div class="login" id="con-form">
+                <img src="https://cdn-icons-png.flaticon.com/512/1144/1144760.png" alt="" class="icon-profil-l">
+                <p align="center" class="User-prof-name"><b>Mimil</b>
+                    <br>
+                    <button class="connect-btn" id="connect-btn" onclick="connect()">Connexion</button>
+                </p>
+                
+            </div>-->
+            <div class="phase1" id="phase1">
+                <div class="dah">
+                    <div class="h">
+                        <b>09:24</b>
+                    </div>
+                    <div class="d">
+                        Lundi 1 Janvier
+                    </div></div>
+                    
+            </div>
+            <div class="phase2" id="phase2">
+                <div class="login" id="con-form">
+                <img src="picture/1960.jpg" alt="" class="icon-profil-l">
+                <p align="center" class="User-prof-name"><b>Mimil</b>
+                    <br>
+                    <button class="connect-btn UI-click" id="connect-btn" onclick="connect()">Connexion</button>
+                </p>
+                
+            </div>
+            </div>
+    </div>
+    </div>
+    <audio src="sound/startup.wav" id="startups"></audio>
+    <script>
+        const desk = document.getElementById("desk")
+        const log = document.getElementById("log")
+        const boot = document.getElementById("boot")
+        const conBtn = document.getElementById("connect-btn")
+        const conform = document.getElementById("con-form")
+        const charge = document.getElementById("charge")
+        const lockph1 = document.getElementById("phase1")
+        const lockph2 = document.getElementById("phase2")
+        const taskbar = document.getElementById("taskbar")
+        const topbar = document.getElementById("topbar")
+        const applaunch = document.getElementById("applaunch")
+        const startups = document.getElementById("startups")
+
+        applaunch.style.display = "none"
+        MenuB.style.display = 'none'
+        macProp.style.display = 'none'
+        charge.style.display = "none"
+        MenuA.style.display = 'none'
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                charge.style.display = "flex"
+                boot.style.display = "none"
+
+            }, 5000)
+        })
+        taskbar.classList.remove("taskbar")
+        taskbar.classList.add("taskbar2")
+        function connect(){
+            conBtn.classList.remove("connect-btn")
+            conBtn.classList.add("connect-btn2")
+            conform.classList.remove("login")
+            conform.classList.add("login2")
+            setTimeout( () => {
+                log.classList.remove("log")
+                log.classList.add("log2")
+                taskbar.classList.remove("taskbar2")
+                taskbar.classList.add("taskbar")
+                startups.play()
+                setTimeout( () => {
+                    log.style.display = "none"
+            }, 3000)
+            }, 2000)
+        }
+        function launchpadopen(){
+            applaunch.style.display = "flex"
+            setTimeout(() => {
+                taskbar.classList.remove("taskbar")
+                taskbar.classList.add("taskbar2")
+                topbar.classList.remove("topbar")
+                topbar.classList.add("topbar2")
+                applaunch.classList.remove("applaunch")
+                applaunch.classList.add("applaunch2")
+            },5)
+            
+        }
+        
+            function launchpadclose(){
+            taskbar.classList.remove("taskbar2")
+            taskbar.classList.add("taskbar")
+            topbar.classList.remove("topbar2")
+            topbar.classList.add("topbar")
+            applaunch.classList.remove("applaunch2")
+            applaunch.classList.add("applaunch")
+            setTimeout(() => {
+                applaunch.style.display = "none"
+            },1000)
+            
+        }
+        function goPhase2(){
+            lockph1.classList.remove("phase1")
+            lockph1.classList.add("phase1-2")
+            setTimeout( () => {
+                lockph2.classList.remove("phase2")
+                lockph2.classList.add("phase2-2")
+            },500)
+        }
+        function goPhase1(){
+            setTimeout( () => {
+                lockph1.classList.remove("phase1-2")
+            lockph1.classList.add("phase1")
+            },500)
+            setTimeout( () => {
+                lockph2.classList.remove("phase2-2")
+                lockph2.classList.add("phase2")
+            },1000)
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.item{
+    color: black;
+    border-radius: 10px;
+    padding: 1px;
+
+}
+.item:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 140, 255);
+    border-radius: 5px;
+    padding: 1px;
+}
+.Menu{
+    position: absolute;
+    display: grid;
+    background-color: rgba(240, 248, 255, 0.219);
+    backdrop-filter: blur(50px);
+    padding: 3px;
+}
+.MenuA{
+    top: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.MenuB{
+    top: 30px;
+    left: 505px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
